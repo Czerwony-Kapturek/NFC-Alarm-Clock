@@ -234,6 +234,18 @@ class NacSharedPreferences(context: Context)
 		}
 
 	/**
+	 * Whether UI shall rotate when device is rotated or stay in portrait mode.
+	 */
+	val forcePortraitOrientation: Boolean
+		get()
+		{
+			val key = resources.getString(R.string.force_portrait_orientation)
+			val defaultValue = resources.getBoolean(R.bool.default_force_portrait_orientation)
+
+			return instance.getBoolean(key, defaultValue)
+		}
+
+	/**
 	 * Whether a new alarm card should be expanded or not.
 	 */
 	val expandNewAlarm: Boolean

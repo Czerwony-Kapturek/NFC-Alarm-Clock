@@ -72,6 +72,7 @@
 	<string name="upcoming_alarm_key">pref_upcoming_alarm_notification</string>
 	<string name="day_button_style_key">pref_day_button_style</string>
 	<string name="start_week_on_key">pref_start_week_on</string>
+	<string name="force_portrait_orientation_key">pref_force_portrait_orientation</string>
 	<string name="expand_new_alarm_key">pref_expand_new_alarm</string>
 	<string name="next_alarm_format_key">pref_time_remaining_format</string>
 

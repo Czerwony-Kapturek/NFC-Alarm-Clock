@@ -145,6 +145,16 @@
 		android:title="@string/tweaks_category">
 
 		<com.nfcalarmclock.settings.preference.NacCheckboxPreference
+			android:title="@string/force_portrait_orientation"
+			android:key="@string/force_portrait_orientation_key"
+			android:summaryOn="@string/force_portrait_orientation_true"
+			android:summaryOff="@string/force_portrait_orientation_false"
+			android:defaultValue="@bool/default_force_portrait_orientation"
+			app:allowDividerAbove="false"
+			app:allowDividerBelow="false"
+			/>
+
+		<com.nfcalarmclock.settings.preference.NacCheckboxPreference
 			android:title="@string/expand_new_alarm"
 			android:key="@string/expand_new_alarm_key"
 			android:summaryOn="@string/expand_new_alarm_true"

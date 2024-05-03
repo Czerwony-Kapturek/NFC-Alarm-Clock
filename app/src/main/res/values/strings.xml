@@ -382,6 +382,11 @@
 	<!-- Start Week On -->
 	<string name="start_week_on">Start week on&#8230;</string>
 
+	<!-- Force portrait mode -->
+	<string name="force_portrait_orientation">Force portrait orientation</string>
+	<string name="force_portrait_orientation_true">User interface is always displayed in portrait mode - regardless of device orientation.</string>
+	<string name="force_portrait_orientation_false">User interface rorates when device is rotated.</string>
+
 	<!-- Expand new alarm card -->
 	<string name="expand_new_alarm">Expand new alarms</string>
 	<string name="expand_new_alarm_true">Alarms that are copied or created with the &#8220;+&#8221; button are expanded.</string>
